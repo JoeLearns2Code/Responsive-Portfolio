@@ -1,0 +1,284 @@
+body {
+    background: goldenrod;
+    background-image: url("https://github.com/JoeLearns2Code/Basic-Portfolio/blob/master/Assets/images/fabric_1.png");
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+    padding-left: 1em;
+}
+
+hr {
+    background-color: #777777;
+    height: 1px;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+
+.header {
+    background-color: #ffffff;
+    Position: relative;
+    width: 10000px;
+    height: 100px;
+    border-bottom: 8px solid #cccccc;
+    padding: 10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    
+
+    
+}
+
+.myname {
+    width: 300px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 37px;
+    padding: 0px;
+    text-align-last: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    line-height: 80px;
+    position:absolute;
+    float: top;
+    float: left;
+    line-height: 1.5;
+    
+}
+
+/* Need to figure out why above element collapses with window, but below element does not. */
+
+.topnav {
+   float: right;
+   float: top;
+   width: 435px;
+   height: 50px;
+   padding: 0px;
+   margin-top: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #777777;
+   position: absolute;
+   margin-left: 1080px;
+   
+
+}
+
+
+H1 {
+ font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+
+#aboutme {
+    color: #4aaaa5;
+    position: relative;
+    margin-top: -20px;
+}
+
+.mypic {
+    position: relative;
+    float: left;
+    float: top;
+    padding-right: 10px;
+    
+}
+
+.textme {
+
+    position: relative;
+    align-content:left;
+    width: 930px;
+    padding: 5px;
+    margin: 5px;
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0 auto;
+    
+
+}
+
+.maindesc {
+
+    
+    width: 960px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 2%;
+    color: #777777;
+    background-color: #ffffff;
+    position: absolute;
+   
+}
+
+footer {
+    background-color: #666666;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    
+    
+}
+
+/* unique to contact.html page */
+
+.form {
+    background-color: #ffffff;
+    float: right;
+    position: absolute;
+    padding: 20px;
+    width: 960px;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #777777;
+
+}
+
+
+#contact{ 
+    color: #4aaaa5
+}
+
+#fillbox {
+    width:960px;
+}
+
+#fillbox2 {
+    width:960px;
+}
+
+
+#messagebox{
+    width:960px;
+    height: 200px;
+}
+
+#submitbutton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+}
+
+/* unique to portfolio.html page */
+
+.portbox{
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    justify-content: space-evenly;
+    width: 960px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+#portheader{ 
+    color: #4aaaa5
+}
+
+
+.portimage {
+    display: flex;
+
+}
+
+.kittentext {
+    position: absolute;
+    float: top;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.sithtext {
+    position: absolute;
+    float: top;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 229px;
+    margin-top: 20px;
+}
+
+.vikingtext {
+    position: absolute;
+    float: top;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 458px;
+    margin-top: 20px;
+}
+
+.wizardtext {
+    position: absolute;
+    float: top;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-left: 687px;
+    margin-top: 20px;
+}
+
+.hamtext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 30px;
+    line-height: 1.8;
+    text-align: center;
+    margin-top: 250px;
+    
+}
