@@ -1,7 +1,5 @@
 body {
-    background: goldenrod;
-    background-image: url("https://github.com/JoeLearns2Code/Basic-Portfolio/blob/master/Assets/images/fabric_1.png");
-    background-repeat: no-repeat;
+    background: url("../images/fabric_1.png");
     margin-left:auto;
     margin-right:auto;
   }
